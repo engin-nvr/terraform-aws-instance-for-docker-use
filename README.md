@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "engin-nvr/docker-instance/aws"
+    source = "engin-nvr/instance-for-docker-use/aws"
     key_name = "clarusway"
 }
 ```
